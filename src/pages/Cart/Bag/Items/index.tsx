@@ -66,16 +66,16 @@ export function Items({ valueCoffee, imgCoffee, nameCoffee, countCartCoffee }: I
                     <p>{nameCoffee}</p>
                     <div>
                         <div>
-                            <button onClick={handleDecreaseCart}>
+                            <button type="button" onClick={handleDecreaseCart}>
                                 <Minus />
                             </button>
                             {countCoffee}
-                            <button onClick={handleIncreaseCart}>
+                            <button type="button" onClick={handleIncreaseCart}>
                                 <Plus />
                             </button>
                         </div>
                         <div>
-                            <button onClick={handleDeleteCoffeeFromCart}>
+                            <button type="button" onClick={handleDeleteCoffeeFromCart}>
                                 <Trash />
                                 <p>Remover</p>
                             </button>

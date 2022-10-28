@@ -57,11 +57,11 @@ export function BtnCoffeeItem({ valueCoffee, imgCoffee, nameCoffee }: BtnCoffeeI
             </CoffeeValue>
             <CoffeeButton>
                 <div>
-                    <button onClick={handleDecreaseCart}>
+                    <button type="button" onClick={handleDecreaseCart}>
                         <Minus />
                     </button>
                     {countCartCoffee}
-                    <button onClick={handleIncreaseCart}>
+                    <button type="button" onClick={handleIncreaseCart}>
                         <Plus />
                     </button>
                 </div>
